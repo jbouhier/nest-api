@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: 'super_man_pages'
+      POSTGRES_PASSWORD: 'super_secure_pass'
